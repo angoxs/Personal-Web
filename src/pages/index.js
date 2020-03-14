@@ -245,6 +245,6 @@ const LogoBox = styled.div`
   border-radius: 20px;
 
   @media (max-width: 375px) {
-    padding: 20px 20px 20px 10px;
+    padding: 20px 20px 10px 20px;
   }
 `
