@@ -130,8 +130,8 @@ const Hero = styled.div`
   border-radius: 10px;
 
   @media (max-width: 375px) {
-    max-width: 375px;
-    padding: 20px 10 40px 10;
+    max-width: 300px;
+    padding: 20px 10px 40px 10px;
     grid-template-columns: repeat(1, 1fr);
   }
 `
