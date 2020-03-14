@@ -225,7 +225,7 @@ const Logos = styled.div`
   padding: 0 50px 100px 50px;
 
   @media (max-width: 375px) {
-    padding: 0 0 50px 0;
+    padding: 0 20px 50px 0;
     margin: 0 auto;
   }
 `
