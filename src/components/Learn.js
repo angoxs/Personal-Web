@@ -20,6 +20,7 @@ const CardGroup = styled.div`
   border-radius: 20px;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
   cursor: pointer;
+  background: white;
 
   :hover {
     transform: scale(1.1, 1.1);
