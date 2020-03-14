@@ -37,7 +37,7 @@ const Logo = styled.div`
   }
 
   @media (max-width: 375px) {
-    width: 260px;
+    width: 280px;
   }
 `
 
