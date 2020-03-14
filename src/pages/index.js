@@ -243,4 +243,8 @@ const LogoBox = styled.div`
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 20px;
+
+  @media (max-width: 375px) {
+    padding: 20px 20px;
+  }
 `
