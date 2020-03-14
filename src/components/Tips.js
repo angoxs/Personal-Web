@@ -131,7 +131,7 @@ const Hero = styled.div`
   border-radius: 10px;
 
   @media (max-width: 375px) {
-    padding: 0 20px;
+    padding: 10px 10px;
     max-width: 240px;
   }
 `
