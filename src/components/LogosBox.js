@@ -56,5 +56,5 @@ const Subtitle = styled.p`
   color: rgba(0, 0, 0, 0.8);
 `
 const Image = styled.img`
-  padding: 0 20px 0;
+  padding: 0 10px 0 10px;
 `
