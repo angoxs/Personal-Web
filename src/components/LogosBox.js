@@ -37,7 +37,7 @@ const Logo = styled.div`
   }
 
   @media (max-width: 375px) {
-    width: 220px;
+    width: 100%;
   }
 `
 
@@ -54,7 +54,6 @@ const Title = styled.p`
 const Subtitle = styled.p`
   font-size: 17px;
   color: rgba(0, 0, 0, 0.8);
-  width: 100%;
 `
 const Image = styled.img`
   padding: 0 20px 0;
