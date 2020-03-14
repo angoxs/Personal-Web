@@ -236,7 +236,7 @@ const LogoBox = styled.div`
   background: white;
   padding: 50px 50px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 400px);
+  grid-template-columns: repeat(auto-fit, 300px);
   background: rgba(255, 255, 255, 0.8);
   box-shadow: 40px 0px 30px rgba(0, 0, 0, 0.009);
   backdrop-filter: blur(40px);
