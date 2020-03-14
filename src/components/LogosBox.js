@@ -54,6 +54,7 @@ const Title = styled.p`
 const Subtitle = styled.p`
   font-size: 17px;
   color: rgba(0, 0, 0, 0.8);
+  width: 100%;
 `
 const Image = styled.img`
   padding: 0 20px 0;
