@@ -76,7 +76,7 @@ const StyledLink = styled.a`
 
   :hover {
     background: white;
-    color: white;
+    color: black;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
     transform: translateY(-3px);
   }
