@@ -136,7 +136,7 @@ const Hero = styled.div`
 
   @media (max-width: 375px) {
     max-width: 350px;
-    padding: 20px 10px 40px 10px;
+    padding: 20px 0 40px 0;
     grid-template-columns: repeat(1, 1fr);
   }
 `
