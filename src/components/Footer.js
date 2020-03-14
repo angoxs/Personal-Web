@@ -86,8 +86,8 @@ const Button = styled.a`
   }
 
   @media (max-width: 375px) {
-    padding: 8px 20px;
-    font-size: 17px;
+    padding: 12px 30px;
+    font-size: 18px;
   }
 `
 const LinkGroup = styled.div`
