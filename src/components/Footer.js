@@ -86,7 +86,7 @@ const Button = styled.a`
   }
 `
 const LinkGroup = styled.div`
-  width: 500px;
+  max-width: 500px;
   margin: 50px auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
