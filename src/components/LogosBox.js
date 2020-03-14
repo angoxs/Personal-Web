@@ -23,7 +23,7 @@ const Logo = styled.div`
   grid-template-columns: repeat(2, auto);
   align-items: center;
   justify-items: center;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px;
 
   :hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
