@@ -171,7 +171,7 @@ const IndexPage = () => (
         />
         <LogosBox
           title="Flutter"
-          text="Flutter is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase."
+          text="Flutter is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop."
           image={require("../images/flutter-logo.png")}
         />
       </LogoBox>
