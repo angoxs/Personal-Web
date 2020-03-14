@@ -37,13 +37,11 @@ const Logo = styled.div`
   }
 
   @media (max-width: 375px) {
-    width: 260px;
+    width: 280px;
   }
 `
 
-const LogoGroup = styled.div`
-  display: grid;
-`
+const LogoGroup = styled.div``
 
 const Title = styled.p`
   margin: 0;
