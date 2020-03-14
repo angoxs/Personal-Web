@@ -54,8 +54,10 @@ const SectionTitleGroup = styled.div`
   margin: 0 auto;
 
   padding: 50px 90px;
+
   @media (max-width: 720px) {
     grid-template-columns: 1fr;
+    padding: 50px 20px;
   }
 `
 
