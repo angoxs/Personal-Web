@@ -128,11 +128,11 @@ const Hero = styled.div`
   backdrop-filter: blur(40px);
   /* Note: backdrop-filter has minimal browser support */
 
-  border-radius: 20px;
+  border-radius: 10px;
 
   @media (max-width: 375px) {
     padding: 0 20px;
-    max-width: 300px;
+    max-width: 240px;
   }
 `
 
