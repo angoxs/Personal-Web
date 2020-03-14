@@ -53,7 +53,6 @@ const Subtitle = styled.p`
   opacity: 0;
 
   @media (max-width: 640px) {
-    font-size: 18px;
   }
 `
 const Image = styled.img`
