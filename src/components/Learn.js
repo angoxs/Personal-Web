@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 const Learn = props => (
   <CardGroup>
-    <Image src={props.image} />
+    {/* <Image src={props.image} /> */}
     <Title>{props.title}</Title>
     <Subtitle>{props.subtitle}</Subtitle>
   </CardGroup>
