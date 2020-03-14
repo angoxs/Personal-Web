@@ -52,7 +52,7 @@ const Subtitle = styled.p`
   color: rgba(0, 0, 0, 0.8);
 
   @media (max-width: 375px) {
-    width: 260px;
+    width: 120px;
   }
 `
 const Image = styled.img`
