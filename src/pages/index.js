@@ -196,6 +196,10 @@ export default IndexPage
 const TipsGroup = styled.div`
   margin: 0 auto;
   padding: 0 50px 100px 50px;
+
+  @media (max-width: 375px) {
+    padding: 0 10px 50px 10px;
+  }
 `
 
 const Image5 = styled.img`
