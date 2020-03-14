@@ -84,6 +84,11 @@ const Button = styled.a`
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     transform: translateY(-3px);
   }
+
+  @media (max-width: 375px) {
+    padding: 8px 20px;
+    font-size: 17px;
+  }
 `
 const LinkGroup = styled.div`
   max-width: 500px;

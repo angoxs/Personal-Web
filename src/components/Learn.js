@@ -25,6 +25,11 @@ const CardGroup = styled.div`
     transform: scale(1.1, 1.1);
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
   }
+
+  @media (max-width: 375px) {
+    width: 280px;
+    height: 350px;
+  }
 `
 
 const Title = styled.h3`
