@@ -50,5 +50,11 @@ const Title = styled.p`
 const Subtitle = styled.p`
   font-size: 17px;
   color: rgba(0, 0, 0, 0.8);
+
+  @media (max-width: 375px) {
+    max-width: 300px;
+  }
 `
-const Image = styled.img``
+const Image = styled.img`
+  padding: 0 10px 0;
+`
