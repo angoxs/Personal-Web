@@ -35,11 +35,14 @@ const Logo = styled.div`
   @media (max-width: 640px) {
     width: 320px;
   }
+
+  @media (max-width: 375px) {
+    width: 260px;
+  }
 `
 
 const LogoGroup = styled.div`
   display: grid;
-  grid-gap: -0px;
 `
 
 const Title = styled.p`
@@ -50,10 +53,10 @@ const Title = styled.p`
 const Subtitle = styled.p`
   font-size: 17px;
   color: rgba(0, 0, 0, 0.8);
-
+  /* 
   @media (max-width: 375px) {
     width: 180px;
-  }
+  } */
 `
 const Image = styled.img`
   padding: 0 10px 0;
