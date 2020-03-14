@@ -51,6 +51,4 @@ const Subtitle = styled.p`
   font-size: 17px;
   color: rgba(0, 0, 0, 0.8);
 `
-const Image = styled.img`
-  padding: 0 20px 0;
-`
+const Image = styled.img``
