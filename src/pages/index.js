@@ -253,6 +253,7 @@ const LogoBox = styled.div`
   }
 
   @media (max-width: 375px) {
+    max-width: 300px;
     padding: 20px 20px 40px 20px;
     grid-template-columns: repeat(1, 1fr);
   }
