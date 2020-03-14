@@ -225,7 +225,7 @@ const Logos = styled.div`
   padding: 0 50px 100px 50px;
 
   @media (max-width: 375px) {
-    padding: 0 20px 20px 20px;
+    padding: 0 20px 80px 20px;
     margin: 0 auto;
   }
 `
@@ -245,6 +245,6 @@ const LogoBox = styled.div`
   border-radius: 20px;
 
   @media (max-width: 375px) {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 40px 20px;
   }
 `
