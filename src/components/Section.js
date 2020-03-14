@@ -60,7 +60,7 @@ const SectionTitleGroup = styled.div`
   }
 
   @media (max-width: 375px) {
-    max-width: 300px;
+    max-width: 320px;
   }
 `
 
