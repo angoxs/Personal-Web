@@ -19,7 +19,6 @@ const Section = props => (
 export default Section
 
 const SectionGroup = styled.div`
-  margin: 0 0 0;
   height: 500px;
   display: grid;
   grid-template-columns: repeat(300px, auto);
@@ -58,6 +57,10 @@ const SectionTitleGroup = styled.div`
   @media (max-width: 720px) {
     grid-template-columns: 1fr;
     padding: 50px 20px;
+  }
+
+  @media (max-width: 375px) {
+    max-width: 300px;
   }
 `
 
