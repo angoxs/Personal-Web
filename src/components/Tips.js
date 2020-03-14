@@ -133,6 +133,12 @@ const Hero = styled.div`
     padding: 10px 10px;
     max-width: 240px;
   }
+
+  @media (max-width: 375px) {
+    max-width: 300px;
+    padding: 20px 10px 40px 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
 `
 
 const HeroGroup = styled.div`

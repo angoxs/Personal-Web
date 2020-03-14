@@ -58,7 +58,7 @@ const ButtonLogo = styled.img``
 const StyledLink = styled.a`
   padding: 12px 25px;
   font-size: 20px;
-  color: white;
+  color: black;
   background: white;
   /* background: #a72cd6; */
   font-weight: 700px;
