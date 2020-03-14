@@ -27,7 +27,7 @@ const CardGroup = styled.div`
   }
 
   @media (max-width: 375px) {
-    width: 280px;
+    width: 300px;
     height: 350px;
   }
 `
