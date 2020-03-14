@@ -33,12 +33,10 @@ class Header extends React.Component {
         <HeaderGroup>
           <Link to="/">AngelVU.</Link>
           <Link to="/page-2">Works</Link>
-          <Button>
+          <StyledLink href="mailto:angelCL0@outlook.com">
             <ButtonLogo src={require("../images/Email.png")} width="30" />
-            <StyledLink href="mailto:angelCL0@outlook.com">
-              Let's chat
-            </StyledLink>
-          </Button>
+            Let's chat
+          </StyledLink>
         </HeaderGroup>
       </div>
     )
@@ -55,11 +53,9 @@ Header.defaultProps = {
 
 export default Header
 
-const StyledLink = styled.a``
-
 const ButtonLogo = styled.img``
 
-const Button = styled.div`
+const StyledLink = styled.a`
   padding: 12px 25px;
   font-size: 20px;
   color: white;

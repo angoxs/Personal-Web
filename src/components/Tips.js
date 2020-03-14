@@ -120,7 +120,7 @@ const Hero = styled.div`
   margin: 0 auto;
   max-width: 800px;
   background: white;
-  padding: 50px 0;
+  padding: 50px 50px;
 
   background: rgba(255, 255, 255, 0.8);
   box-shadow: 40px 0px 30px rgba(0, 0, 0, 0.009);

@@ -222,7 +222,7 @@ const BottomImage = styled.img`
 
 const Logos = styled.div`
   margin: 0 auto;
-  padding: 0 50px 100px 50px;
+  padding: 0 50px 20px 50px;
 
   @media (max-width: 375px) {
     padding: 0 20px 80px 20px;
@@ -233,10 +233,13 @@ const Logos = styled.div`
 const LogoBox = styled.div`
   margin: 0 auto;
   max-width: 800px;
+
   background: white;
-  padding: 50px 50px;
+  padding: 20px 50px;
+  grid-gap: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 300px);
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
   background: rgba(255, 255, 255, 0.8);
   box-shadow: 40px 0px 30px rgba(0, 0, 0, 0.009);
   backdrop-filter: blur(40px);
@@ -244,7 +247,13 @@ const LogoBox = styled.div`
 
   border-radius: 20px;
 
+  @media (max-width: 820px) {
+    padding: 20px 20px 40px 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   @media (max-width: 375px) {
     padding: 20px 20px 40px 20px;
+    grid-template-columns: repeat(1, 1fr);
   }
 `
