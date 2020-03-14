@@ -35,6 +35,10 @@ const Logo = styled.div`
   @media (max-width: 640px) {
     width: 320px;
   }
+
+  @media (max-width: 375px) {
+    width: 220px;
+  }
 `
 
 const LogoGroup = styled.div`

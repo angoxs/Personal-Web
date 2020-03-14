@@ -223,6 +223,10 @@ const BottomImage = styled.img`
 const Logos = styled.div`
   margin: 0 auto;
   padding: 0 50px 100px 50px;
+
+  @media (max-width: 375px) {
+    padding: 0 0 50px 0;
+  }
 `
 
 const LogoBox = styled.div`

@@ -131,7 +131,7 @@ const Hero = styled.div`
   border-radius: 20px;
 
   @media (max-width: 375px) {
-    padding: 0 0;
+    padding: 0 20px;
     max-width: 300px;
   }
 `
@@ -148,7 +148,7 @@ const HeroGroup = styled.div`
   }
 
   @media (max-width: 375px) {
-    width: 200px;
+    width: 280px;
   }
 `
 
