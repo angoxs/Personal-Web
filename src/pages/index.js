@@ -198,7 +198,7 @@ const TipsGroup = styled.div`
   padding: 0 50px 100px 50px;
 
   @media (max-width: 375px) {
-    padding: 0 10px 50px 10px;
+    padding: 0 5px 50px 5px;
   }
 `
 
