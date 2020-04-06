@@ -16,8 +16,8 @@ const Hero = styled.div`
 
 const HeroGroup = styled.div`
   margin: 0;
-  max-width: 600px;
-  padding: 150px 150px 20px 150px;
+  max-width: 500px;
+  padding: 180px 150px 20px 150px;
 
   @media (max-width: 640px) {
     padding: 150px 20px;
@@ -110,11 +110,15 @@ const IndexPage = () => (
 
       <Image src={require("../images/Union.png")} />
       <HeroGroup>
-        <Title>Prepare for the future!</Title>
+        <Title>Hi! I'm Angel</Title>
         <Subtitle>
-          A future web and mobile developer. Along with UI/UX designer.
+          I'm a JavaScript Developer, with experience working across the stack,
+          totally in love with the buzz that comes from building and shipping
+          products. Did I mention I love JavaScript?
         </Subtitle>
-        <Subtitle>Now a bit about progress</Subtitle>
+        <Subtitle>
+          React, SwiftUI & React Native are my current flavours of choice.{" "}
+        </Subtitle>
         <Button>
           <ButtonLogo src={require("../images/Chat.png")} width="30" />
           <StyledLink href="mailto:angelCL0@outlook.com">Let's chat</StyledLink>
