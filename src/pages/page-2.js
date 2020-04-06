@@ -32,15 +32,56 @@ const SecondPage = () => (
           image={require("../images/Rectangle 1.png")}
         />
       </HeroGroup>
+      <TestContainer>
+        <TestCard>
+          <Title>Test Card For Now</Title>
+          <Button>Download Now</Button>
+        </TestCard>
+      </TestContainer>
     </Hero>
   </Layout>
 )
 
 export default SecondPage
 
-const Hero = styled.div`
-  height: 920px;
+const Title = styled.p`
+  padding-top: 50px;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+`
+
+const TestContainer = styled.div`
+  margin: 100px;
+`
+
+const Button = styled.button`
+  cursor: pointer;
+  border: none;
+  background: orange;
+  padding: 12px 22px;
+  font-size: 20px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 600;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+`
+
+const TestCard = styled.div`
+  max-width: 650px;
+  height: 280px;
   background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  border-radius: 30px;
+  text-align: center;
+  padding: 0 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: url("https://cl.ly/0cd74a0d81e8/download/Group%2525202.png");
+`
+
+const Hero = styled.div`
+  height: 1500px;
 
   @media (max-width: 1200px) {
     height: 1000px;

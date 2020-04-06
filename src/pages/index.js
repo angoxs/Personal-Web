@@ -16,7 +16,7 @@ const Hero = styled.div`
 
 const HeroGroup = styled.div`
   margin: 0;
-  max-width: 500px;
+  max-width: 600px;
   padding: 150px 150px 20px 150px;
 
   @media (max-width: 640px) {
@@ -26,7 +26,8 @@ const HeroGroup = styled.div`
 `
 const Title = styled.h1`
   margin: 0;
-  font-size: 60px;
+  font-size: 72px;
+  font-weight: 800;
   color: black;
   line-height: 1.2;
   opacity: 0;
@@ -41,18 +42,19 @@ const Title = styled.h1`
   -webkit-text-fill-color: transparent; */
 
   @media (max-width: 640px) {
-    font-size: 40px;
+    font-size: 60px;
   }
 `
 
 const Subtitle = styled.p`
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 26px;
   line-height: 1.5;
   animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
 
   @media (max-width: 640px) {
+    font-size: 20px;
   }
 `
 const Image = styled.img`
@@ -108,12 +110,9 @@ const IndexPage = () => (
 
       <Image src={require("../images/Union.png")} />
       <HeroGroup>
-        <Title>Hey there! my name is Angel VU, developer and designer.</Title>
+        <Title>Prepare for the future!</Title>
         <Subtitle>
-          I love design and programming and I help companies progress, love
-          seeing them succeed in any area they might be. Right now i’m still
-          learning but in the future i hope to bring more to the community.
-          There’s more about me. But let me know how can i help you?
+          A future web and mobile developer. Along with UI/UX designer.
         </Subtitle>
         <Subtitle>Now a bit about progress</Subtitle>
         <Button>
