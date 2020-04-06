@@ -121,7 +121,7 @@ const IndexPage = () => (
         </Subtitle>
         <Button>
           <ButtonLogo src={require("../images/Chat.png")} width="30" />
-          <StyledLink href="mailto:angelCL0@outlook.com">Let's chat</StyledLink>
+          <StyledLink href="mailto:angelCL0@outlook.com">See More</StyledLink>
         </Button>
 
         <Text>
