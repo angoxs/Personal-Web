@@ -112,9 +112,9 @@ const IndexPage = () => (
       <HeroGroup>
         <Title>Hi! I'm Angel</Title>
         <Subtitle>
-          I'm a JavaScript Developer, with experience working across the stack,
-          totally in love with the buzz that comes from building and shipping
-          products. Did I mention I love JavaScript?
+          I'm a Developer that loves pretty & clean code, with experience
+          working across the stack, totally in love with the buzz that comes
+          from building and shipping products. Did I mention I love JavaScript?
         </Subtitle>
         <Subtitle>
           React, SwiftUI & React Native are my current flavours of choice.{" "}
