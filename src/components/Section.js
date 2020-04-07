@@ -77,6 +77,6 @@ const SectionTitle = styled.p`
 `
 
 const SectionText = styled.p`
-  font-size: 20px;
+  font-size: 22px;
   max-width: 600px;
 `

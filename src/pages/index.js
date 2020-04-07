@@ -28,7 +28,7 @@ const Title = styled.h1`
   margin: 0;
   font-size: 72px;
   font-weight: 800;
-  color: black;
+  color: #000839;
   line-height: 1.2;
   opacity: 0;
   animation: HeroAnimation;
@@ -47,7 +47,8 @@ const Title = styled.h1`
 `
 
 const Subtitle = styled.p`
-  color: rgba(0, 0, 0, 0.7);
+  color: #3c415e;
+
   font-size: 26px;
   line-height: 1.5;
   animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
