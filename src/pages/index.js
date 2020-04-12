@@ -122,7 +122,7 @@ const IndexPage = () => (
         </Subtitle>
         <Button href="/page-2">
           <ButtonLogo src={require("../images/Chat.png")} width="30" />
-          <StyledLink>Learn to code</StyledLink>
+          <StyledLink>Playground</StyledLink>
         </Button>
 
         <Text>
