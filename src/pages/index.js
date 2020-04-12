@@ -68,7 +68,6 @@ const Button = styled.div`
   font-size: 17px;
   font-weight: 600;
   color: white;
-  text-transform: uppercase;
   background: white;
   /* background: #a72cd6; */
   padding: 12px 30px;
@@ -81,6 +80,7 @@ const Button = styled.div`
   grid-template-columns: repeat(2, auto);
   align-items: center;
   justify-items: center;
+  cursor: pointer;
 
   :hover {
     background: white;
@@ -122,7 +122,7 @@ const IndexPage = () => (
         </Subtitle>
         <Button>
           <ButtonLogo src={require("../images/Chat.png")} width="30" />
-          <StyledLink href="mailto:angelCL0@outlook.com">See More</StyledLink>
+          <StyledLink href="/page-2">Learn to code</StyledLink>
         </Button>
 
         <Text>

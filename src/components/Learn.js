@@ -2,55 +2,74 @@ import React from "react"
 import styled from "styled-components"
 
 const Learn = props => (
-  <CardGroup>
-    {/* <Image src={props.image} /> */}
-    <Title>{props.title}</Title>
-    <Subtitle>{props.subtitle}</Subtitle>
-  </CardGroup>
+  <Card>
+    <TitleGroup>
+      <Caption>10 MORE COMING</Caption>
+
+      <Title>{props.title}</Title>
+      <Subtitle>{props.subtitle}</Subtitle>
+      {/* <Button>Read more</Button> */}
+    </TitleGroup>
+    <ImageGroup>
+      <Image src={props.image} />
+    </ImageGroup>
+  </Card>
 )
 
 export default Learn
 
-const CardGroup = styled.div`
-  width: 350px;
-  height: 420px;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-  border-radius: 20px;
-  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-  cursor: pointer;
+const Card = styled.div`
+  max-width: 70%;
   background: white;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
 
-  :hover {
-    transform: scale(1.1, 1.1);
-    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
-  }
+  grid-template-columns: repeat(auto-fit, 400px);
 
-  @media (max-width: 375px) {
-    width: 300px;
-    height: 350px;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  /* height: 225px; */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+`
+
+const Button = styled.a`
+  padding: 12px 35px;
+  background: #6b48ff;
+  color: white;
+  border-radius: 22px;
+  cursor: pointer;
+`
+
+const TitleGroup = styled.div`
+  @media (max-width: 1160px) {
+    text-align: center;
+    padding: 20px 40px;
   }
+`
+
+const ImageGroup = styled.div``
+
+const Caption = styled.p`
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+  color: #a898ea;
 `
 
 const Title = styled.h3`
-  margin: 50px 0 0 30px;
   font-size: 30px;
+  font-weight: 800;
+  margin-bottom: -10px;
 `
 
 const Subtitle = styled.p`
-  margin: 10px 0 30px 30px;
-  width: 300px;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 40px;
 `
 
 const Image = styled.img`
-  height: 110%;
-  position: absolute;
-  top: 0;
-  z-index: -1;
-  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-
-  :hover {
-    transform: translateY(-20px);
-  }
+  width: 450px;
 `
