@@ -8,7 +8,7 @@ import Learn from "../components/Learn"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Playground" />
     <Hero>
       <HeroGroup>
         <Text> Playground</Text>
@@ -33,7 +33,7 @@ const SecondPage = () => (
 export default SecondPage
 
 const Hero = styled.div`
-  height: 1520px;
+  height: 1020px;
 `
 const HeroGroup = styled.div`
   margin: 0 auto;

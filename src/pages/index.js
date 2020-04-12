@@ -64,7 +64,7 @@ const Image = styled.img`
   width: 100%;
 `
 
-const Button = styled.div`
+const Button = styled.a`
   font-size: 17px;
   font-weight: 600;
   color: white;
@@ -120,9 +120,9 @@ const IndexPage = () => (
         <Subtitle>
           React, SwiftUI & React Native are my current flavours of choice.{" "}
         </Subtitle>
-        <Button>
+        <Button href="/page-2">
           <ButtonLogo src={require("../images/Chat.png")} width="30" />
-          <StyledLink href="/page-2">Learn to code</StyledLink>
+          <StyledLink>Learn to code</StyledLink>
         </Button>
 
         <Text>
